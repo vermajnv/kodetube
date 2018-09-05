@@ -1,0 +1,91 @@
+.center {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.space-bw-clmn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/* .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.navbar-item {
+    padding: 0;
+    margin: .4rem;
+    ;
+}
+
+.MyNav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar.is-white.fixed-top {
+    box-shadow: 1px 1px 6px 2px lightgrey;
+    /* position: fixed;
+    width: 100%;    */
+}
+
+.navbar-item img {
+    max-height: 1.2rem;
+}
+
+
+.columns.is-multiline.has-margin-150 {
+    /* margin-left : 150px; */
+    transition: all .3s ease-in;
+}
+
+.MarginReset {
+    margin-left: 150px !important;
+}
+.menu.my-menu {
+    position: fixed;
+    top: 52px;
+    z-index: 1;
+    width: 16%;
+    transform: translate(-100%);
+    transition: transform .3s ease-in;
+    background-color: #d3d3d333;
+    height: 100vh;
+} 
+
+.MenuVisible {
+    transform: translate(0) !important;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.LoginWrapper {
+    position: ABSOLUTE;
+    transform: translate(150%, -100%);
+    width: 40%;
+    background-color: #f3eeee;
+    padding: 1rem;
+    top: 44px;
+    border-radius: 4px;
+    transition: transform .2s ease-in;
+    box-shadow: 6px -1px 10px 6px #c3b8b8b0;
+}
+
+.LoginWrapperVisible {
+    transform: translate(150%, 0);
+}
